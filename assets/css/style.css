@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/assets/images/compass-near-old-maps.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px darkslategrey;
+}
+
+h3 {
+    float: left;
+}
+
+#options {
+    
+}
