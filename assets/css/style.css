@@ -94,7 +94,7 @@ button:hover {
     button {
         font-size: 0.8em;
         width: 150px;
-        padding: 9;
+        padding: 9px;
     }
 
     #options {
