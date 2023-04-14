@@ -7,31 +7,56 @@ body {
 }
 
 h1 {
-    text-align: center;
     color: white;
     text-shadow: 2px 2px darkslategrey;
+    text-align: center;
 }
 
 h3 {
-    float: left;
+    text-align: center;
+    position: relative;
+    top: 5em;
+    font: 2em;
+}
+
+#question-background {
+    background-color: white;
+    opacity: 80%;
+    border-radius: 10px;
+    background-size: 10%;
 }
 
 #options {
     text-align: center;
+    position: relative;
+    top: 10em;
 }
 
 button {
 	padding: 10px;
-	margin: 10px;
+	margin: 50px 50px 0 50px;
 	width: 200px;
-	background-color: ;
 	border: none;
 	border-radius: 10px;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	cursor: pointer;
+    border: 1px solid black;
+}
+
+button:hover {
+    border: 3px solid black;
 }
 
 #total-score {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
+    background-color: white;
+    opacity: 80%;
+    border-radius: 10px;
+    width: 90px;
+    font-size: 90%;
+}
+
+#score {
+    color: green;
 }
