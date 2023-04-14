@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: url(/assets/images/compass-near-old-maps.jpg);
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: auto;
     height: auto;
 }
 
@@ -17,5 +17,21 @@ h3 {
 }
 
 #options {
-    
+    text-align: center;
+}
+
+button {
+	padding: 10px;
+	margin: 10px;
+	width: 200px;
+	background-color: ;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+#total-score {
+    position: absolute;
+    bottom: 0;
 }
