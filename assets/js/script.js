@@ -54,3 +54,29 @@ const questions = [
         answer: 2;
     }
 ]
+
+let currentQuestion = 0;
+let score = 0;
+
+const questionElem = document.getElementById("question-display");
+const optionElems = document.querySelectorAll("#options button");
+const scoreElem = document.getElementById("score");
+
+/**
+ * This function goes through the questions listed in the questions variable and cycles through them.
+ * The function also presents the options when the question is loaded.
+ */
+function displayQuestion() {
+	let question = questions[currentQuestion];
+	questionElem.innerText = question.question;
+	for (let i = 0; i < 4; i++) {
+		optionElems[i].innerText = question.options[i];
+		optionElems[i].addEventListener("click", checkAnswer);
+	}
+}
+
+function checkAnswer() {
+
+}
+
+displayQuestion();
