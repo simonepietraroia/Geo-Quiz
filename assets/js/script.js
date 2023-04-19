@@ -53,14 +53,14 @@ const questions = [
         options: ["Perth to London", " Houston to Sydney", "Singapore to New York", " Dubai to Auckland"],
         answer: 2
     }
-]
+];
 
 let currentQuestion = 0;
 let score = 0;
 
 const questionElem = document.getElementById("question");
 const optionElems = document.querySelectorAll("#options button");
-const scoreElem = document.getElementById("score")
+const scoreElem = document.getElementById("score");
 
 /**
  * This function goes through the questions listed in the questions variable and cycles through them.

@@ -1,84 +1,66 @@
 # Geography Quiz
 
-## Table of Contents
+## Features 
 
-## User Experience (UX)
-### User stories
+### Existing Features
 
-#### Visitor Goals
+- __The Question Section__
 
-### Design 
+    - This section displays questions in order after   
+<img src="assets/images/questions.png" alt="picture of where questions apear" width="500px">
 
-## Technologies used 
-### Languages
 
-- HTMl
-- CSS
-- Javascript
+- __The Choices Section__
 
-### Frameworks, Libraries & Programs Used 
 
-## Features
-### Navigation Bar
+<img src="assets/images/game-choices.png" alt="picture of where the game choices apear" width="500px">
 
-### Hero image and text
 
-### What we do
+- __The Score Area__
 
-### Footer
+
+<img src="assets/images/score.png" alt="picture of where the score appear" width="200px">
+  
+
+### Features Left to Implement
+
+- In future iterations of this game, the questions will display in a different order after the game is restarted 
+- More questions will be added in future interations
 
 ## Testing 
 
-## Testing of the user story
+### Validator Testing 
 
-### User stories
+- HTML
+    - No errors issues from the HTML Validator [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+- CSS
+    - No errors issues from the CSS Validator [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsimonepietraroia.github.io%2FGeography-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- JavaScript
+    - No errors were found when passing through the official Jshint validator
+        - The following metrics were returned:
+        - There are 2 functions in this file.
+        - Function with the largest signature takes 1 arguments, while the median is 0.5.
+        - Largest function has 9 statements in it, while the median is 7.
+        - The most complex function has a cyclomatic complexity value of 3 while the median is 2.5.
+### Unfixed Bugs
 
-|Goal| Execution|
-|--------------------------------------------------------------------------------------|-------------------------------------------------------|
-|First time visitors should have an fast understanding of the goal of the organisation| The hero image and the small description underneath|
-|First time visitors need to get the information about who the services are for.| Information in description under hero image and on promo video|
-|First time users should have the ability to find our social media links to get more information.| Social media links under astana-hub video|
-|First time users should have the ability to download the application on both app stores.| Download buttons that interact when hovered on|
-|Returning users should be able to go to navigate quickly to sections of the page.| Section names on navigation bar that take you to section when clicked|
-|Returning users can find the link to the application on the page.| App store link buttons for both apple and google|
-|Returning users should find the links to folow us on social media.| Social media links under the astana hub video.|
-
-## Manual code testing
-### Responsiveness
-
-The website is adapted to be seen on different screen sizes. 
-The responsiveness of the website was first tested by chrome developer tools. 
-Different breakpoints where used to view the website. 
-Next to this the website was viewed on different devices: laptop, tablet and smartphones.
-
-### Browser compatibility
-
-The website was tested in different browsers. 
-
-|Browser| compatibility|
-|------------------------------------|-------------|
-|Mozilla Firefox version 111.0.1 |no problems|
-|Microsoft Edge Version 108.0.1462.54 |no problems|
-|Google Chrome Version 	111.0.5563.146 | no problems|
-
-### Validator Testing
-
-### Fixed bugs
-
-### Unfixed bugs
+There is an issue with the buttons with the answers shaking when hovered on. The location of the bug hasn't been found.
 
 ## Deployment
 
-This site was deployed by GitHub pages. 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-To deploy a page you first go to the GitHub repository, then you go to setting. 
-Afterwards you go to the subsection pages. 
-Next go to the source section and select Branch:main. 
-Press save and then you receive a link.  
+The live link can be found here - https://simonepietraroia.github.io/Geography-Quiz/
 
-Live link: https://simonepietraroia.github.io/Geography-Quiz/
+## Credits 
 
-## Credits
-### Images
+### Content 
 
-### Code 
+- The answer to these questions were found on [Wikipedia](https://www.wikipedia.org/)
+- The site [W3C](https://www.w3schools.com/spaces/) was used as an external source to deal with coding issues.
+### Media
+
+The background images of this game was found on [Freepik.com](https://www.freepik.com/)
