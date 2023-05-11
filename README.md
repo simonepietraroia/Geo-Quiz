@@ -1,4 +1,7 @@
-# Geography Quiz
+# Geo Quiz
+Geo Quiz is a website that hopes to provide a challenging and fun quiz using the core concepts of javascript and UX design. This site is targeted toward those who wish to see an example of how quizes, a common form of entertainment or learning tool, can be created by using basic javascript concepts. Geo Quiz is a simple and fully responsive website that keeps score of your result and can be played on a wide range or devices.
+
+<img src="assets/images/geo-quiz.png" alt="picture of website on various screen sizes" width= "400px">
 
 ## Features 
 
@@ -6,22 +9,24 @@
 
 - __The Question Section__
 
-    - This section displays questions in order after   
+    - This section displays questions as soon as the pages has loaded and has a white background to highlight the constant position of the questions. The section is placed above the 4 choices to pick and cycle when a choice is clicked.  
+
 <img src="assets/images/questions.png" alt="picture of where questions apear" width="500px">
 
 
 - __The Choices Section__
 
+    -  This section is located under the questions section and displays 4 seperate buttons in which a black border appears on the button that is hovered over. The choices cycle and switch to the new choices once one of the choices is clicked.
 
 <img src="assets/images/game-choices.png" alt="picture of where the game choices apear" width="500px">
 
 
 - __The Score Area__
 
+    -  The score area section is located in the bottom left of the screen and will alaways stay at the bottom on any screen size. The score area number updates when a correct choice is cliked. The score area number is green to highlight when a correct choice is made.
 
 <img src="assets/images/score.png" alt="picture of where the score appear" width="200px">
   
-
 ### Features Left to Implement
 
 - In future iterations of this game, the questions will display in a different order after the game is restarted 
@@ -50,8 +55,8 @@ There is an issue with the buttons with the answers shaking when hovered on. The
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+From the source section drop-down menu, select the main Branch
+Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://simonepietraroia.github.io/Geography-Quiz/
 
@@ -61,6 +66,8 @@ The live link can be found here - https://simonepietraroia.github.io/Geography-Q
 
 - The answer to these questions were found on [Wikipedia](https://www.wikipedia.org/)
 - The site [W3C](https://www.w3schools.com/spaces/) was used as an external source to deal with coding issues.
+
 ### Media
 
-The background images of this game was found on [Freepik.com](https://www.freepik.com/)
+- The background images of this game was found on [Freepik.com](https://www.freepik.com/)
+- The favicon was taken from [Freepik.com](https://www.freepik.com/) and converted on [favicon.io](https://favicon.io/)
