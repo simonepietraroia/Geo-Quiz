@@ -1,6 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(/assets/images/compass-near-old-maps.jpg), url(/assets/images/981.jpg);
+    background-image: url(../images/compass-near-old-maps.jpg), url(../images/981.jpg);
     background-color: black;
     background-repeat: no-repeat;
     background-size: auto;
