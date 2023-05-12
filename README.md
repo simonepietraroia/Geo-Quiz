@@ -1,5 +1,5 @@
 # Geo Quiz
-Geo Quiz is a website that hopes to provide a challenging and fun quiz using the core concepts of javascript and UX design. This site is targeted toward those who wish to see an example of how quizes, a common form of entertainment or learning tool, can be created by using basic javascript concepts. Geo Quiz is a simple and fully responsive website that keeps score of your result and can be played on a wide range or devices.
+Geo Quiz is a website that hopes to provide a challenging and fun quiz using the core concepts of javascript and UX design. This site is targeted toward those who wish to see an example of how quizes, a common form of entertainment or learning tool, can be created by using basic javascript concepts. Geo Quiz is a simple and fully responsive website that keeps score of your result and can be played on a wide range or devices. The way this code was constructed allows for easy addition of questions and possible choices as well as ability to change the topic of the questions in future iterations.
 
 <img src="assets/images/geo-quiz.png" alt="picture of website on various screen sizes" width= "400px">
 
